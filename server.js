@@ -5,8 +5,8 @@ const PORT = 5000;
 app.get('/', (req, res) => {
   res.json({
     status: "success",
-    message: "Welcome to My First DevOps Automated Pipeline!",
-    version: "1.0.0"
+    message: "DevOps Automated Pipeline Working Successfully!",
+    version: "2.0.0"
   });
 });
 
